@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#psql -U postgres < salon.sql
+
+#pg_dump -cC --inserts -U freecodecamp salon > salon.sql 
+
 PSQL="psql -X --username=freecodecamp --dbname=bikes --tuples-only -c"
 
 echo -e "\n~~~~~ Bike Rental Shop ~~~~~\n"
